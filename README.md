@@ -1,4 +1,4 @@
-# maze
+# JazysJazys
 Seamlessly create use case oriented REST APIs based on T-SQL stored procedures.
 
 [![Build Status](https://img.shields.io/azure-devops/build/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main) [![Test Status](https://img.shields.io/azure-devops/tests/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main) [![Code coverage](https://img.shields.io/azure-devops/coverage/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main)
