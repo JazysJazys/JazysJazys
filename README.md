@@ -1,30 +1,30 @@
-# Dibix
+# maze
 Seamlessly create use case oriented REST APIs based on T-SQL stored procedures.
 
-[![Build Status](https://img.shields.io/azure-devops/build/serviceware/dibix/2/main)](https://dev.azure.com/serviceware/Dibix/_build/latest?definitionId=2&branchName=main) [![Test Status](https://img.shields.io/azure-devops/tests/serviceware/dibix/2/main)](https://dev.azure.com/serviceware/Dibix/_build/latest?definitionId=2&branchName=main) [![Code coverage](https://img.shields.io/azure-devops/coverage/serviceware/dibix/2/main)](https://dev.azure.com/serviceware/Dibix/_build/latest?definitionId=2&branchName=main)
+[![Build Status](https://img.shields.io/azure-devops/build/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main) [![Test Status](https://img.shields.io/azure-devops/tests/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main) [![Code coverage](https://img.shields.io/azure-devops/coverage/serviceware/maze/2/main)](https://dev.azure.com/serviceware/maze/_build/latest?definitionId=2&branchName=main)
 
 ## Artifacts
 | Name | Version |
 | - | - |
-| [Dibix](https://www.nuget.org/packages/Dibix) | [![Dibix](https://img.shields.io/nuget/v/Dibix.svg)](https://www.nuget.org/packages/Dibix) |
-| [Dibix.Dapper](https://www.nuget.org/packages/Dibix.Dapper) | [![Dibix.Dapper](https://img.shields.io/nuget/v/Dibix.Dapper.svg)](https://www.nuget.org/packages/Dibix.Dapper) |
-| [Dibix.Http.Client](https://www.nuget.org/packages/Dibix.Http.Client) | [![Dibix.Http.Client](https://img.shields.io/nuget/v/Dibix.Http.Client.svg)](https://www.nuget.org/packages/Dibix.Http.Client) |
-| [Dibix.Http.Server](https://www.nuget.org/packages/Dibix.Http.Server) | [![Dibix.Http.Server](https://img.shields.io/nuget/v/Dibix.Http.Server.svg)](https://www.nuget.org/packages/Dibix.Http.Server) |
-| [Dibix.Http.Server.AspNet](https://www.nuget.org/packages/Dibix.Http.Server.AspNet) | [![Dibix.Http.Server.AspNet](https://img.shields.io/nuget/v/Dibix.Http.Server.AspNet.svg)](https://www.nuget.org/packages/Dibix.Http.Server.AspNet) |
-| [Dibix.Http.Server.AspNetCore](https://www.nuget.org/packages/Dibix.Http.Server.AspNetCore) | [![Dibix.Http.Server.AspNetCore](https://img.shields.io/nuget/v/Dibix.Http.Server.AspNetCore.svg)](https://www.nuget.org/packages/Dibix.Http.Server.AspNetCore) |
-| [Dibix.Sdk](https://www.nuget.org/packages/Dibix.Sdk) | [![Dibix.Sdk](https://img.shields.io/nuget/v/Dibix.Sdk.svg)](https://www.nuget.org/packages/Dibix.Sdk) |
-| [Dibix.Testing](https://www.nuget.org/packages/Dibix.Testing) | [![Dibix.Testing](https://img.shields.io/nuget/v/Dibix.Testing.svg)](https://www.nuget.org/packages/Dibix.Testing) |
-| [Dibix.Worker.Abstractions](https://www.nuget.org/packages/Dibix.Worker.Abstractions) | [![Dibix.Worker.Abstractions](https://img.shields.io/nuget/v/Dibix.Worker.Abstractions.svg)](https://www.nuget.org/packages/Dibix.Worker.Abstractions) |
-| [Dibix.Http.Host](https://hub.docker.com/r/tommylohsesw/dibix-http-host) | [![Dibix.Http.Host](https://img.shields.io/docker/v/tommylohsesw/dibix-http-host?label=docker&sort=semver)](https://hub.docker.com/r/tommylohsesw/dibix-http-host/tags) |
-| [Dibix.Worker.Host](https://hub.docker.com/r/tommylohsesw/dibix-worker-host) | [![Dibix.Worker.Host](https://img.shields.io/docker/v/tommylohsesw/dibix-worker-host?label=docker&sort=semver)](https://hub.docker.com/r/tommylohsesw/dibix-worker-host/tags) |
+| [maze](https://www.nuget.org/packages/maze) | [![maze](https://img.shields.io/nuget/v/maze.svg)](https://www.nuget.org/packages/maze) |
+| [maze.Dapper](https://www.nuget.org/packages/maze.Dapper) | [![maze.Dapper](https://img.shields.io/nuget/v/maze.Dapper.svg)](https://www.nuget.org/packages/maze.Dapper) |
+| [maze.Http.Client](https://www.nuget.org/packages/maze.Http.Client) | [![maze.Http.Client](https://img.shields.io/nuget/v/maze.Http.Client.svg)](https://www.nuget.org/packages/maze.Http.Client) |
+| [maze.Http.Server](https://www.nuget.org/packages/maze.Http.Server) | [![maze.Http.Server](https://img.shields.io/nuget/v/maze.Http.Server.svg)](https://www.nuget.org/packages/maze.Http.Server) |
+| [maze.Http.Server.AspNet](https://www.nuget.org/packages/maze.Http.Server.AspNet) | [![maze.Http.Server.AspNet](https://img.shields.io/nuget/v/maze.Http.Server.AspNet.svg)](https://www.nuget.org/packages/maze.Http.Server.AspNet) |
+| [maze.Http.Server.AspNetCore](https://www.nuget.org/packages/maze.Http.Server.AspNetCore) | [![maze.Http.Server.AspNetCore](https://img.shields.io/nuget/v/maze.Http.Server.AspNetCore.svg)](https://www.nuget.org/packages/maze.Http.Server.AspNetCore) |
+| [maze.Sdk](https://www.nuget.org/packages/maze.Sdk) | [![maze.Sdk](https://img.shields.io/nuget/v/maze.Sdk.svg)](https://www.nuget.org/packages/maze.Sdk) |
+| [maze.Testing](https://www.nuget.org/packages/maze.Testing) | [![maze.Testing](https://img.shields.io/nuget/v/maze.Testing.svg)](https://www.nuget.org/packages/maze.Testing) |
+| [maze.Worker.Abstractions](https://www.nuget.org/packages/maze.Worker.Abstractions) | [![maze.Worker.Abstractions](https://img.shields.io/nuget/v/maze.Worker.Abstractions.svg)](https://www.nuget.org/packages/maze.Worker.Abstractions) |
+| [maze.Http.Host](https://hub.docker.com/r/tommylohsesw/maze-http-host) | [![maze.Http.Host](https://img.shields.io/docker/v/tommylohsesw/maze-http-host?label=docker&sort=semver)](https://hub.docker.com/r/tommylohsesw/maze-http-host/tags) |
+| [maze.Worker.Host](https://hub.docker.com/r/tommylohsesw/maze-worker-host) | [![maze.Worker.Host](https://img.shields.io/docker/v/tommylohsesw/maze-worker-host?label=docker&sort=semver)](https://hub.docker.com/r/tommylohsesw/maze-worker-host/tags) |
 
 ## Background
-The aim of Dibix is to rapidly create use case oriented REST APIs without writing any boilerplate code, unlike the general approach of designing ASP<span>.</span>NET APIs by writing controllers and actions. It strictly focuses on a hand-written T-SQL stored procedure, which is described with a bit of metadata markup. The APIs and contracts involved are specified in a declarative JSON format. Basically, each URL defined in an API endpoint results in invoking the SQL stored procedure, materializing the relational result into a hierarchical result and then return that to the client.
+The aim of maze is to rapidly create use case oriented REST APIs without writing any boilerplate code, unlike the general approach of designing ASP<span>.</span>NET APIs by writing controllers and actions. It strictly focuses on a hand-written T-SQL stored procedure, which is described with a bit of metadata markup. The APIs and contracts involved are specified in a declarative JSON format. Basically, each URL defined in an API endpoint results in invoking the SQL stored procedure, materializing the relational result into a hierarchical result and then return that to the client.
 
 ## Getting started
 
 ### Creating a project
-Dibix follows a database first approach therefore most of the work is done in a [SQL server database project](https://visualstudio.microsoft.com/vs/features/ssdt). 
+maze follows a database first approach therefore most of the work is done in a [SQL server database project](https://visualstudio.microsoft.com/vs/features/ssdt). 
 This is where you create use case oriented stored procedures which will later turn into working REST APIs.<br/>
 We currently offer to split your artifacts into two separate projects:
 - Component.Database (DDL)<br/>
@@ -37,7 +37,7 @@ This project should contain only stored procedures. These will not be published 
 Since DDL gets published at the target database, this means that basically any simple T-SQL statement will end up inside a stored procedure. So far we don't have an exact idea if this is good or bad. The advantage of DDL over DML is that DDL can be easily devop'd at the customer site using [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms), whereas the DML is compiled into an assembly and therefore harder to patch, especially during development.
 
 ### Configuring the project
-Dibix provides [MSBuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild) targets to integrate it seamlessly into the database project build pipeline. The idea is to install the [Dibix.Sdk NuGet package](https://www.nuget.org/packages/Dibix.Sdk) into your project, which will automatically add the necessary imports.<br/>
+maze provides [MSBuild](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild) targets to integrate it seamlessly into the database project build pipeline. The idea is to install the [maze.Sdk NuGet package](https://www.nuget.org/packages/maze.Sdk) into your project, which will automatically add the necessary imports.<br/>
 Unfortunately NuGet is [not supported](https://github.com/NuGet/Home/issues/545) in database projects (yet?). Therefore the import has to happen manually. Please check if there is any existing documentation in the product you are working on or ask [me](mailto:tommy.lohse@helpline.de) for assistance.
 
 
@@ -392,43 +392,43 @@ DELETE /api/Person?personIds[]=1&personIds[]=2
 ```
 
 ## Compiling the project
-Once you have created all the necessary artifacts, you can build the database project. With the Dibix MSBuild targets automatically integrated into the build pipeline, you end up with a couple of additional files along with the `.dacpac` file in your output directory:
-1. An `<Area>.dbx` endpoint package file that contains everything to feed the [Dibix.Http.Host](#dibix-http-host) with the REST endpoints and their SQL targets defined in this project.
-2. An `<OutputName>.dll` assembly, that contains only the C# accessors for the SQL artifacts defined in the project. This can be useful in any C# application, such an integration test project or backend application, like the [Dibix Worker Host](#dibix-worker-host), for example.
+Once you have created all the necessary artifacts, you can build the database project. With the maze MSBuild targets automatically integrated into the build pipeline, you end up with a couple of additional files along with the `.dacpac` file in your output directory:
+1. An `<Area>.dbx` endpoint package file that contains everything to feed the [maze.Http.Host](#maze-http-host) with the REST endpoints and their SQL targets defined in this project.
+2. An `<OutputName>.dll` assembly, that contains only the C# accessors for the SQL artifacts defined in the project. This can be useful in any C# application, such an integration test project or backend application, like the [maze Worker Host](#maze-worker-host), for example.
 3. An `<Area>.Client.dll` assembly, that contains the C# http client which can be used, to contact the REST endpoints, defined within the project. See [this section](#consuming-endpoints) for more details.
 4. The [OpenAPI](https://www.openapis.org/) definition as `<Area>.yml` and `<Area>.json`.
 
 ## Hosting
-There are currently two hosting applications for different purposes. You can download both as zip from the [latest release](https://github.com/Serviceware/Dibix/releases/latest). See below for more detail.
+There are currently two hosting applications for different purposes. You can download both as zip from the [latest release](https://github.com/Serviceware/maze/releases/latest). See below for more detail.
 
-### Dibix Http Host
+### maze Http Host
 This application hosts REST endpoint packages generated by database projects. For first time use, these are the minimum steps, that must be configured in the `appsettings.json` file within the root folder of the application:
 1. The connection string to the database (`Database:ConnectionString`)
 2. The URL of the OIDC authority used to verify incoming JWT bearer tokens (`Authentication:Authority`)
 
 To register a package, place it in the `Packages` folder and add it to the `Hosting:Packages` section in the `appsettings.json`.
 
-### Dibix Worker Host
+### maze Worker Host
 This application hosts worker assemblies that can contain long running background jobs, such as a simple worker or [Service Broker](https://learn.microsoft.com/de-de/sql/database-engine/configure-windows/sql-server-service-broker) message subscribers.
 
-These workers can be developed using the abstractions defined in the [`Dibix.Worker.Abstractions` nuget package](https://www.nuget.org/packages/Dibix.Worker.Abstractions).
+These workers can be developed using the abstractions defined in the [`maze.Worker.Abstractions` nuget package](https://www.nuget.org/packages/maze.Worker.Abstractions).
 For first time use, the only required setting in the `appsettings.json` file is the connection string to the database (`Database:ConnectionString`)
 
 To register a worker assembly, place it in the `Workers` folder and add it to the `Hosting:Workers` section in the `appsettings.json`.
 
 ## Consuming endpoints
 If the project contains any HTTP endpoints, a client assembly and an [OpenAPI](https://github.com/OAI/OpenAPI-Specification) document are also created during compilation. The client assembly contains a service interface and implementation for each endpoint defined in the project along with their referenced contracts. A host project can consume these client assemblies and register the implementation in the DI container to make the interface available to consumers via IoC. <br />
-The implementation is based on the [Dibix.Http.Client](https://www.nuget.org/packages/Dibix.Http.Client) runtime and the generated services may require a few dependencies:
+The implementation is based on the [maze.Http.Client](https://www.nuget.org/packages/maze.Http.Client) runtime and the generated services may require a few dependencies:
 | Type | Required | Implementation(s) |
 | - | - | - |
-| [`IHttpClientFactory`](https://github.com/Serviceware/Dibix/blob/main/src/Dibix.Http.Client/Client/IHttpClientFactory.cs) | Optional |[`DefaultHttpClientFactory`](https://github.com/Serviceware/Dibix/blob/main/src/Dibix.Http.Client/Client/DefaultHttpClientFactory.cs) |
-| [`IHttpAuthorizationProvider`](https://github.com/Serviceware/Dibix/blob/main/src/Dibix.Http.Client/Client/IHttpAuthorizationProvider.cs) | Required (if endpoint requires authorization) | - |
+| [`IHttpClientFactory`](https://github.com/Serviceware/maze/blob/main/src/maze.Http.Client/Client/IHttpClientFactory.cs) | Optional |[`DefaultHttpClientFactory`](https://github.com/Serviceware/maze/blob/main/src/maze.Http.Client/Client/DefaultHttpClientFactory.cs) |
+| [`IHttpAuthorizationProvider`](https://github.com/Serviceware/maze/blob/main/src/maze.Http.Client/Client/IHttpAuthorizationProvider.cs) | Required (if endpoint requires authorization) | - |
 
 The OpenAPI document will be generated in YAML and JSON format and can be used to generate other artifacts, for example clients in other languages like TypeScript.
 
 ## Syntax reference
 ### Stored procedure
-In this section, the markup properties to declare input and output of the stored procedure is explained in more detail. The documentation is still in progress. You can also have a look at [these tests](/tests/Dibix.Sdk.Tests.Database/Tests/Syntax) for more examples.
+In this section, the markup properties to declare input and output of the stored procedure is explained in more detail. The documentation is still in progress. You can also have a look at [these tests](/tests/maze.Sdk.Tests.Database/Tests/Syntax) for more examples.
 
 #### Name
 PascalCase naming is recommended for referencing actions in API definitions.
@@ -465,10 +465,10 @@ Allows to group actions into a separate (relative) namespace.
 To be continued...
 
 ### Contract
-In this section the schema for defining contracts is described. The documentation is still in progress. For now you can use [the JSON schema](/src/Dibix.Sdk/CodeGeneration/Schema/dibix.contracts.schema.json) as a reference or have a look at [these tests](/tests/Dibix.Sdk.Tests.Database/Contracts) as samples.
+In this section the schema for defining contracts is described. The documentation is still in progress. For now you can use [the JSON schema](/src/maze.Sdk/CodeGeneration/Schema/maze.contracts.schema.json) as a reference or have a look at [these tests](/tests/maze.Sdk.Tests.Database/Contracts) as samples.
 
 ### Endpoint
-In this section the schema for defining endpoints is described. The documentation is still in progress. For the sake of completeness, you can use [the JSON schema](/src/Dibix.Sdk/CodeGeneration/Schema/dibix.endpoints.schema.json) as a reference.
+In this section the schema for defining endpoints is described. The documentation is still in progress. For the sake of completeness, you can use [the JSON schema](/src/maze.Sdk/CodeGeneration/Schema/maze.endpoints.schema.json) as a reference.
 
 An endpoint JSON starts with a root object. Each property inside the root object  maps to an endpoint. An endpoint is similar to a controller in ASP.NET. The property name defines the name of the endpoint. Along with the area name (based on the component name), it controls the URL of the API: `api/{areaName}/{endpointName}`.
 
@@ -493,7 +493,7 @@ The target property should contain the name of the stored procedure that is invo
 To be continued...
 
 ### HTTP status code
-By default Dibix endpoints return [200 OK](https://httpstatuses.com/200) for operations that have a result and [204 NoContent](https://httpstatuses.com/204) for those that do not return a result.<br />
+By default maze endpoints return [200 OK](https://httpstatuses.com/200) for operations that have a result and [204 NoContent](https://httpstatuses.com/204) for those that do not return a result.<br />
 However sometimes you need to return a different HTTP status code, for example to indicate that the request is invalid. 
 Ideally you could return a different response body along with a specific HTTP status code, however this is not an easy task and gets very complex with the current way how response types are declared and also validated with the according T-SQL output statements.<br />
 Therefore currently it's only possible to return a specific HTTP status code (supported are currently some client and some server errors) along with an additional error code and a message, both which are returned as custom HTTP response headers. 
